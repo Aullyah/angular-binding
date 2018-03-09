@@ -1,0 +1,30 @@
+.row{
+	min-width: 400px;
+	margin: 0 auto;
+	display: flex;
+	padding: 20px 0;
+}
+
+.row .point{
+	background-color: #fff;
+	color: #3ed9e6;
+	flex: 1;
+	padding: 20px;
+	font-size: 380%;
+}
+
+
+.row .ket{
+	background-color: #fff;
+	color: #3ed9e6;
+	flex: 3;
+	padding: 20px;
+	border-left: 1px solid #000;
+}
+
+/*.delete{
+	flex: 1;
+	font-size: 200%;
+	background-color: #fff;
+	color: #3ed9e6;
+}*/

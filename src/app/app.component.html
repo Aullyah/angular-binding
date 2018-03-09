@@ -1,0 +1,27 @@
+<div class="wrap">
+  <form>
+    <div class="row">
+      <label for="nama">Nama</label>
+      <input name="nama" #nama>
+    </div>
+    <div class="row">
+      <label for="nim">Nim</label>
+      <input name="nim" #nim>
+    </div>
+    <div class="row">
+      <label for="jurusan">Peminatan</label>
+      <input name="jurusan" #peminatan>
+    </div>
+    <div class="row">
+      <label for="nilai">Nilai</label>
+      <input name="nilai" #nilai>
+    </div>
+    <div class="row" #grade>
+    </div>
+    <button (click)="add(nama, nim, peminatan, nilai, grade)">Input</button>
+  </form>
+
+  <table>
+    <app-item *ngFor="let item of simpan;" [simpan]="item"></app-item>
+  </table>
+</div>

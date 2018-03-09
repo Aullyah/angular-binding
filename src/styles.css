@@ -1,0 +1,12 @@
+/* You can add global styles to this file, and also import other style files */
+html,body{
+	background-color: #3ed9e6;
+	color:#fff;
+	font-size: 110%;
+}
+
+.wrap{
+	min-height: 100%;
+	max-width: 800px;
+	margin: 0 auto;
+}
